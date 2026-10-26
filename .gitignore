@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest & Testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large Dataset files (IMDb 66MB raw CSV is documented in data/README.md)
+data/*.csv
+
+# Heavy binary model checkpoints (tracked locally, generated via train.py)
+artifacts/*.pt
+artifacts/*.pth
+artifacts/*.bin
+artifacts/*.onnx
+
+# Operating System & Editor Metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local logs and temporary files
+*.log
+*.tmp
