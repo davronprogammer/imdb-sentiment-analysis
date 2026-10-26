@@ -41,3 +41,12 @@ desktop.ini
 # Local logs and temporary files
 *.log
 *.tmp
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Client-side binary models if exported locally
+web/assets/models/*.onnx
+web/assets/models/*.bin

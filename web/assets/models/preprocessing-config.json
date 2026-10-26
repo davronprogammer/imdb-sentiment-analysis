@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "input_name": "input_ids",
+  "output_name": "logits",
+  "input_dtype": "int64",
+  "sequence_length": 200,
+  "padding": { "token": "<PAD>", "id": 0, "direction": "post" },
+  "unknown": { "token": "<UNK>", "id": 1 },
+  "normalization": [
+    "lowercase",
+    "html_entity_unescape",
+    "replace_br_tags_with_space",
+    "remove_html_tags",
+    "remove_http_https_www_urls",
+    "remove_digits",
+    "remove_non_ascii_letters_except_whitespace",
+    "collapse_whitespace_and_strip"
+  ],
+  "tokenizer": "whitespace_split",
+  "output": { "type": "raw_logit", "positive_threshold": 0.0, "probability": "sigmoid(logit)" }
+}
