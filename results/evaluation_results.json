@@ -1,0 +1,56 @@
+{
+  "LSTM": {
+    "accuracy": 0.56,
+    "f1_score": 0.3125,
+    "positive_precision": 0.625,
+    "positive_recall": 0.20833333333333334,
+    "positive_f1": 0.3125,
+    "negative_precision": 0.5476190476190477,
+    "negative_recall": 0.8846153846153846,
+    "negative_f1": 0.6764705882352942,
+    "macro_f1": 0.4944852941176471,
+    "weighted_f1": 0.501764705882353,
+    "confusion_matrix": [
+      [
+        23,
+        3
+      ],
+      [
+        19,
+        5
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    Negative     0.5476    0.8846    0.6765        26\n    Positive     0.6250    0.2083    0.3125        24\n\n    accuracy                         0.5600        50\n   macro avg     0.5863    0.5465    0.4945        50\nweighted avg     0.5848    0.5600    0.5018        50\n",
+    "total_samples": 50,
+    "model_name": "LSTM",
+    "evaluation_time": 0.06571149826049805,
+    "logit_threshold": 0.0
+  },
+  "GRU": {
+    "accuracy": 0.56,
+    "f1_score": 0.26666666666666666,
+    "positive_precision": 0.6666666666666666,
+    "positive_recall": 0.16666666666666666,
+    "positive_f1": 0.26666666666666666,
+    "negative_precision": 0.5454545454545454,
+    "negative_recall": 0.9230769230769231,
+    "negative_f1": 0.6857142857142857,
+    "macro_f1": 0.47619047619047616,
+    "weighted_f1": 0.48457142857142854,
+    "confusion_matrix": [
+      [
+        24,
+        2
+      ],
+      [
+        20,
+        4
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    Negative     0.5455    0.9231    0.6857        26\n    Positive     0.6667    0.1667    0.2667        24\n\n    accuracy                         0.5600        50\n   macro avg     0.6061    0.5449    0.4762        50\nweighted avg     0.6036    0.5600    0.4846        50\n",
+    "total_samples": 50,
+    "model_name": "GRU",
+    "evaluation_time": 0.11687946319580078,
+    "logit_threshold": 0.0
+  }
+}

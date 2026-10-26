@@ -1,0 +1,11 @@
+GRU Classification Report
+========================================
+
+              precision    recall  f1-score   support
+
+    Negative     0.5455    0.9231    0.6857        26
+    Positive     0.6667    0.1667    0.2667        24
+
+    accuracy                         0.5600        50
+   macro avg     0.6061    0.5449    0.4762        50
+weighted avg     0.6036    0.5600    0.4846        50
