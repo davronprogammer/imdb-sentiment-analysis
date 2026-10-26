@@ -1,6 +1,7 @@
 # IMDb Sentiment Classification - LSTM vs. GRU
 
 An end-to-end, reproducible deep learning project for binary sentiment classification using PyTorch, comparing **Long Short-Term Memory (LSTM)** and **Gated Recurrent Unit (GRU)** architectures on the IMDb Movie Reviews dataset. Includes a static, responsive educational research website with an interactive browser-based sentiment analyzer.
+
 https://imdbsentimental.netlify.app/
 ---
 
